@@ -1,0 +1,886 @@
+
+
+Welcome to...
+                       ___      ,---,
+                     ,--.'|_  ,--.' |
+                     |  | :,' |  |  :
+                     :  : ' : :  :  :
+                   .;__,'  /  :  |  |,--.   ,---. 
+       ___   ___   |  |   |   |  :  '   |  /     \ 
+   ___/  /__/  /__ :__,'| :   |  |   /' : /    /  |
+  /___   ___   __/   '  : |__ '  :  | | |.    ' / |
+  ___/  /__/  /__    |  | '.'||  |  ' | :'   ;   /|
+ /__   ___   ___/    ;  :    ;|  :  :_:,''   |  / |
+   /__/  /__/        |  ,   / |  | ,'    |   :    |
+                ,-..  ---`-'  `--''  __   \   \  /     ,--, 
+   ,--.--.     / /   \             ,-.'|_  `----'    ,--.'|               
+   \   /  \   / .     :   __  ,-.  | | :,'           |  | :               
+   |  :    | . /  .;.  \,' ,'/ /|  : : ' :           :  : '    .-.--.    
+   |  | .\ :. ;  ; //  ;'  | |' |.;_,'  /    ,-.-.   |  ' |   / /    '   
+   .  : |: |; |  ;// ; ||  |   ,'| |   |    /      \ '  | |  | :  /`./   
+   |  |  \ :| :  ,/ /| ''  :  /  :_,'| :   .--.  .. ||  | :  | :  ;_     
+   |  : .  |. |    /|| :|  | '     ' : |__  \__\/:. .'  : |__ \ \   `.  
+   :    |`-'' ;   ///  |;  : |     | | '.'| ," .-.; ||  | '.'| `---.  \ 
+   :  : :    \ \  ',  / |  , ;     ; :    ;/  / ,.  |;  :    ; / /`-' / 
+   |  | :     ; :    /   ---'      | ,   /;  :  .'   \  ,   /' -'.   /  
+   `--'.|      \ \ .'               --`-' |  ,    .-./---`-'   `-'--'   
+     `--`       `-`                        `--`--'                        
+             Created and maintained by Anonymous, for Anonymous.
+
+
+
+INTRODUCING OPENBOOK OPENSOURCE SOFTWARE
+
+Welcome to yet another stop on the underground railroad!
+
+Congratulations, you had the curiousity and intelligence to dig deeper,
+and read into the code! Perhaps you're even planning on using this code
+to open your own p0rtal! Please be advised, this is powerful chaos magic
+you have at your fingertips. We want you to read a bit about how it
+works before you use it. It's insane we're releasing this to everyone...
+
+For the safety and security of all of humanity:
+We hope you'll be responsible enough to be sure you understand the
+information provided here before you open a p0rtal.
+
+"With great power comes great responsibility..."
+
+So, without further ado...
+
+
+
+INTRODUCING GROUPTHINK
+
+To understand what this p0rtal is, and how to use it, you must first
+understand "groupthink".
+
+Everyone has heard of peer pressure, and how our decisions can be
+influenced by the opinions of our peers. We usually find ourselves most
+easily persuaded by those to whom we feel close, share a common bond,
+or who we imagine to have authority over us. Believe it or not, this
+simple mechanism is at the heart of what is wrong with humanity.
+
+People's minds are habitually controlled by a predictable set of social
+behaviors, all of which we will refer to collectively (and perhaps too
+loosely) as "groupthink". This is our tendency to see things with a sort
+of tribalist perspective, imagining that the world were still a bunch of
+separate tribes at war. It is experienced as loyalty to "your people",
+but is often expressed as a gaurded distrust of outsiders, an elitist
+dismissal of foreign ideas, and an unhealthy codependant attachment to
+those who you imagine to be part of your "tribe", often amounting to
+little more than abusive relationships.
+
+Groupthink:
+
+1.  People bond over ideas.
+2.  Our sense of connection is so entangled with these ideas that if we
+    no longer hold the same ideas in common, that sense of connection
+    fades.
+3.  So, because people are attached to EACH OTHER, they INCIDENTALLY
+    become attached to the IDEAS they have bonded over.
+
+(The snow gets stuck together...)
+
+Computers on a network are sent a "PING" every few seconds, to which
+they must reply "PONG" to acknowledge that they're just a friendly user
+on the network and not some hacker trying something. Humans have a
+similar way of keeping their "networks" in-tact. Groups often have a
+habitual back and forth banter that constantly re-establishes the
+group's underlying assumptions. Unfortunately, this makes it nearly
+impossible to sneak out from under those assumptions, and get out of
+those illusions, as long as you're still in the presence of that group.
+
+4.  The original ideas that brought the group together have then become
+    an almost unquestionable assumption of the group.
+5.  Just by being in each other's presence, we fall under the spell
+    of the ideas we bonded over. It would be awkward not to.
+6.  These underlying assumptions are so strong, and so often repeated,
+    that trying to go against them will always be taken for sarcasm.
+    Or just get outright dismissed or ignored, then forgotten.
+
+(The snowball can only roll in one direction...)
+
+7.  Using these underlying assumptions as a point of reference, members
+    of a group almost seem to predict each other's thoughts and actions.
+    (This is that common experience of "telepathy" most have had.)
+8.  Allowing these ideas to guide their thoughts and actions, the group
+    seems to move in harmony, together as one. One cohesive entity.
+
+(The snowball starts rolling in that certain direction...)
+
+9.  Just by our presence we are encouraging a group's actions. We may
+    imagine we are there to stop it, or change it, but our presence
+    always adds psychic energy in the direction of the crowd's original
+    ideas.
+10. So the more people who are present, the more real these ideas seem
+    to become, and the more likely people are to translate their ideas
+    into action.
+
+(The snowball gets bigger and bigger, and gathers momentum...)
+
+Conclusion: Any ideas, held in common, fueled by enough people, time,
+and energy, will eventually lead to those people acting on those ideas,
+and trying to bring their collective vision into reality.
+
+This may get you thinking about a lot, but we want to point out a couple
+things before your mind wanders too far. Because these ideas can be hard
+to wrap your head around, we recommend just reading this whole document
+straight through, but then going back and re-reading as many times as
+you need.
+
+First of all, despite groupthink being our greatest shortcoming, there
+may in fact be no way to prevent it. However, by understanding it, we
+can work with it.
+
+Let's take a look at the good, the bad, and the ugly...
+
+
+
+GROUPTHINK: THE GOOD, THE BAD, AND THE UGLY
+
+First, the bad: Groupthink is a prison without bars that we cannot taste
+or see or touch. A prison for our minds... It keeps us trapped in the
+Matrix. And it uses OUR MINDs to do this. To EACH OTHER! And to
+ourselves. Below, we describe the basics of what's known of in
+psychology as Behavioral Confirmation Bias.
+
+How We Trap Each Other In The Matrix:
+
+1.  The perceiver adopts beliefs about the target.*
+2.  The perceiver acts as if these beliefs were true and treats the
+    target accordingly.
+3.  The target assimilates his or her behavior to the perceiver's
+    overtures.
+4.  The perceiver interprets the target's behavior as confirmation of
+    thier original beliefs.
+
+*This is especially problematic since our beliefs and assumptions about
+each other are usually NOT based on our OWN observations, but on what
+we're told to believe by movies, television, friends and family.
+
+Conclusion: These findings suggest that human beings, who are the
+targets of many perceivers in everyday life, may routinely act in ways
+which are consistent not with their own attitudes, beliefs, or feelings;
+but rather with the perceptions and stereotypes which others hold of
+them and their attributes. This seems to suggest that the power of
+other's beliefs over our behaviors is extremely strong.(Which is
+especially alarming when you consider how our increasingly invasive
+surveillance state will only exacerbate this phenomena as it expands
+it's field of view.)
+
+But, the best part about groupthink?
+
+People "vote with their presence" what reality they manifest. Which
+means, although we may be too weak-minded to significantly alter any
+group from within, we have the power to literally manifest an entirely
+new reality. We just have to be careful where we put our attention
+and energy, feeding our attention into portals of good energy and
+starving portals of bad energy of our attention. Or removing ourselves
+from groups that lack creativity, so that we can FIND THE OTHERS with
+the psychic ability to envision new worlds. We can even start new
+groups, create new spaces and experiences, and manifest whole new worlds
+of our own choosing, if we are patient and persistent enough. We've done
+this before. We've seen this happen when we kept putting flyers in
+coffee shops advertising a Really Really Free Market for months, until
+people finally started showing up. Then, suddenly, it grew huge. We had
+created a portal to a new world where no money was needed, and anyone
+who showed up understood that you were there to give and share with each
+other freely. And this has gone on every month, ever since.
+
+Here's the ugly part... and a cautionary tale before opening a p0rtal.
+
+Groupthink is also known as mob mentality. It is notorious for getting
+people to do crazy and regrettable things in the heat of the moment.
+For example, if a bunch of wild racists whip each other up into a
+frenzy, what began as just big talk might end in a lynching. It's as if
+ideas are FORCED to become reality when enough people are voting with
+their presence. This surely shows the dark-side of groupthink, and how
+we must be careful not to send out any bad vibes or open any bad p0rtals
+because they might ripple out until a mad mob is killing people to bring
+your words of folly to fruition. (That's a word of caution to people who
+say racist shit. But also a word of caution to never be a follower, or
+even an onlooker, if the energy isn't right: Don't feed the drama.)
+
+For More Information: Look up "Divisive Speech".
+
+But, being bound by groupthink as a matter of course, we must not look
+upon groupthink as a hopelessly violent and ruthless subconscious force
+that must be controlled. That's what the illuminati would want you to
+think, because it gives them an excuse to rule us. The scary truth is,
+they, too, are ruled by groupthink. (So I don't lose you here, if you
+don't know what I mean by "illuminati" just imagine I'm using it as a
+convoluted metaphor tying together advertisers, propagandists,
+banksters, the CIA, and the 1%.) But groupthink isn't all bad, because
+groupthink is also what allows us to overcome huge obstacles by
+gathering in large numbers. As in the case of barn-raising. Or like when
+a mob of people went to battle with the evil forces of U.C. Berkeley in
+the 70's in what resulted in People's Park. A park that is maintained by
+the people to this day. Groupthink is how mobs of people overthrow their
+ruthless dictators. Groupthink is what drives protests and activism of
+all kinds.
+
+To understand how powerful groupthink is, you must get the full
+picture of what it is responsible for. Groupthink is the unseen force
+that drives our daily lives, as well as all of human history. It is
+behind every relationship, every conflict, and every decision. More than
+being merely influenced by those around us, our every idea is actually
+defined relative to all our other ideas, all of which were arrived upon
+within the context of the groupthink of our times, and so our worldview
+is forever caught up in the Matrix of groupthink ideas in our minds.
+Which is why we as a species continue to make such horrible decisions,
+which ultimately lead to the same inevitable downfalls, in an endless
+cyclical nature.
+
+Fortunately, what once seemed like an endless cycle is fast approaching
+it's End Game...
+
+
+
+THE INTERNET
+
+With so much determined by the groupthink of groups, and with the
+understanding that the psychic energy of groups is exponentially
+amplified by the number of people who are present, it seems of
+particular interest what characteristics the group mind of the entire
+Internet might express. Especially considering this virtual gathering
+apparently welcomes everyone in the world to join. For if this entity
+were to gain self-awareness, imagining itself to be one unified group,
+and thereby giving birth to a group mind for the Internet itself, it
+would seem the psychic energy released would be unstoppable.
+
+Enter: Anonymous.
+
+On the Internet, it seems everyone has been given a second chance. All
+you have to do is make a new email and a new username and no one knows
+who you are. All your mistakes are forgotten. You can't be judged by how
+you look, who you know, or what you've done in the past. You can get a
+sex change for free just by changing your username. You can lie about
+what you do, or anything else for that matter. You can completely re-
+invent yourself. The Internet has become a world of our wildest
+imaginings, a whole fantasy world where anything is possible and
+everyone is welcome to participate in building it. With this ideal of
+welcoming participation from everyone, and connecting over the idea of
+sharing information, the Internet became a gathering that catalyzed a
+mob the size of the whole world, all united under the wild-eyed idealism
+that "information wants to be free" (to borrow a phrase from the
+open-source movement).
+
+A revolution of truth had begun.
+
+And the first casualty of war was "official sources".
+
+
+
+THE (r)EVOLUTION BEGINS
+
+For the Internet generation(s), it's been taken for granted that the
+purpose of information, especially art, is to share it. We never
+thought twice about downloading movies or music, and soon everyone
+became accustom to the concept that everything should be shared - at
+LEAST in cyberspace. It was such a joke to consider digital rights
+management in those days that we would pass around PSA's about not
+duplicating floppy disks just so everyone could have a laugh. Then,
+suddenly, the dark forces caught on and started harshly trying to clamp
+down. This could be the happy little mistake that politicized a
+whole generation. Just as the illegal drug markets have always been
+forced underground, only to continue getting even better at networking
+and circumventing obstacles, the digital rights management industry has
+forced EVERYONE underground, digitally, and united us under the blanket
+of obscurity, if not full anonymity, just so we could continue
+exchanging information freely. The group mind of the Internet itself
+became permanently possessed by a rebellious spirit. That same
+rebellious spirit that has always been at the heart of what it means
+to be human. And so, with sharing music being so popular, and music
+being so intrinsic to the human experience, this essentially set the
+stage for the decentralized human spirit itself to gear up for the
+final battle against the dark forces.
+
+The seeds for global revolution were sown.
+
+But this whole debacle brought something even more fundamental to the
+forefront. If the officials are trying so hard to stop us from sharing
+music, just to uphold the corrupted ethics of a dying economic system,
+then it follows that these same officials might not be sharing all the
+information about other stuff. Like what's on the news - is that real?
+Or is that also just bullshit to uphold a dying economic system?
+This uncertainty, especially as it became validated by WikiLeaks,
+Anonymous videos, whistleblowers, and the rise in alternative media
+outlets, has inevitably destabalized society for better or for worse as
+people struggle to come to terms with what the truth really is, or who
+we can really trust...
+
+To help us think as one with "our group", our minds filter information
+through a social lens. Being bombarded by conflicting information since
+birth, one of the ways we filter information is by trusting in some
+sources of information more strongly than in others. This is why, for
+instance, we're more likely to listen to our parents than some
+random stranger. And why, although we may never take the tabloids
+seriously, we might still hang on every word of a presidential speech
+(despite them both having about the same amount of truth). We'll
+henceforth refer to this as "the illusion of authority" or "the illusion
+of official sources".
+
+This illusion of authority has been crucial in controlling populations
+for a long time. It allows the self-proclaimed authorities to maintain
+their illusions simply by confidently repeating their falsehoods in the
+face of any onslaught of truth, because no one listens to those who
+aren't backed up by the spectacle of authority, anyways. Dark forces
+first establish their authority with brute force, and then they publicly
+establish a false image of reality that makes them appear as the saviors
+upon which everyone else is dependant. They then continue to back up
+their falsehoods with fear tactics, and violence where necessary, until
+those who know more just stop speaking up about it, or even start lying
+to themselves about it so they can feel better about not doing anything
+about it. It's sort of like a brutal negotiation, where one side speaks
+truth, and the other side kills them for it, and this goes back and
+forth until no one in that generation has the energy or confidence left
+to speak any more truth than has already been spoken.
+
+And then, "there's suckers born everyday", as they say, and so once
+the dark forces have beaten one generation into submission, they usually
+won't have to beat the population back into the illusion for another
+generation or two, because the parents themselves raise the children to
+believe in the illusion (if only out of innocent ignorance, or just to
+keep their children out of harm's way). At that point, the amount of
+truth that has made it into the public stagnates, and slowly errodes as
+the system of lies perpetually builds more illusions upon the foundation
+of the original illusions to further obscure the truth and enforce their
+manufactured worldview. This continues until such a time when people
+once again start to wake up, and rise up, and the cycle repeats...
+
+This is all possible because of another dark twist to groupthink that we
+didn't mention, yet... We call it "The Drift".
+
+11. Ideas are eventually co-opted, misinterpretted by new-comers, and
+    re-interpretted by powermongers in whatever way is in their best
+    interest. This causes all group minds to eventually devolve into a
+    mad mob fighting to bring to fruition ideas that they themselves
+    don't fully grasp. The original ideas having been obscured by using
+    those same words and symbols to represent different things, the
+    characteristics of any group mind inevitably grows to embody the
+    self-interested and short-sighted characteristics of the human ego.
+
+(Ultimately, snowballs can only roll downhill, so as they grow bigger
+their original trajectory succumbs to gravity, and eventually all
+Snowballs end up rolling the same direction: Straight down...
+
+...and so these snowballs then collect at the bottom of the ravine,
+where all the corrupted and co-opted ideas of humanity eventually run
+together. Here, all our old ideas appear to be piling up so high they're
+starting to build a pyramid. A big evil pyramid full of bad ideas. The
+pyramid of the illuminati. Yet, it is EVERYONE's ideas, and how they all
+inevitably succumb to the corruption of the ego, that has lead to the
+building of this pyramid. And it is our belief in all these things, and
+our attachment to all these ideas, that props the pyramid up, and holds
+it together. The illuminati seem so powerful, and so pervasive, simply
+because it is as decentralized as the expression of the human ego.
+
+We must all awaken, now, to our role in cocreating this new age.
+All of us who are to blame for holding onto all those ideas we
+once believed in, even after they've all become corrupted. All of us are
+to blame for remaining in solidarity with groups as they Drift.
+
+The illuminati is not a conscious conspiracy. It is the decentralized
+subconscious accumulation of all our self-interested actions piling up
+until we have become our own worst enemy.
+
+(It might have once been the name of one of the many powerful secret
+cults in the world, but we're talking about the widespread legend
+it has since blossumed into... The former is irrelevant, as it is just
+another group controlled by the groupthink of groups.)
+
+We have collectively manifested the illuminati as our boogy-man, scaring
+us into waking up, just as we have collectively manifested Anonymous to
+teach us HOW to wake up and transform our world.
+
+There are no sides, anymore. This is the awakening.
+
+The conflict is within...
+
+
+
+THE TIDES HAVE TURNED
+
+Throughout history, these same dark forces have acted through us to keep
+the truth at gunpoint, obscure it with misinformation, or altogether
+force the truth into exile; just as the US Government has done to Edward
+Snowden and Glenn Greenwald. Except this time is different. Because with
+the Internet, the whole world has become hyper-connected, so there is no
+longer any way to truly exile the truth. Both Edward Snowden and Glenn
+Greenwald still have worldwide attention, and continue to disclose
+information. And despite attacks on WikiLeaks, year after year WikiLeaks
+still pumps out new secrets every day. By trying to force the truth
+underground in the information age, these dark forces have fortunately
+given rise to their own Final Boss: Anonymous. Now forcing the truth
+underground only means forcing it to re-surface in the voice of
+Anonymous. With this collective voice, the game of obscuring the truth
+that the "powers-that-be" have always engaged in has finally devolved
+into a losing battle of whack-a-mole.
+
+The truth is everywhere, now.
+
+It's only a matter of time before we all wake up to it.
+
+
+
+WHAT IS A P0RTAL?
+
+You'll notice we've gone over three distinct areas of groupthink. We
+might call these the Matrix, the Snowball, and the Drift. The Matrix
+refers to how our assumptions about each other trap each other into
+sticking to "the social program" of society. The Snowball reflects the
+nature of people to stick together over ideas, and how those ideas gain
+momentum as more and more people join the "cause". And the Drift
+reflects the nature of any idea to eventually succumb to the dark forces
+of the human ego.
+
+We've got a bug in our program. And we're going to have to hack our
+minds to fix it. The Snowball, the Matrix, and the Drift are not
+outside us, but within. They are tied to our very being, and at the core
+of how we act and react to our environment. So hopelessly trapped within
+these models of behavior, how can we ever break free? We would have to
+find the perfect loophole to see the whole thing come undone...
+
+A p0rtal is that loophole...
+
+A p0rtal is basically a Snowball amplified by the mass numbers of the
+Internet, and energetically shielded from the influence of the Matrix by
+anonymity. Having given us a break from the ego and the Matrix, p0rtals
+give us the opportunity to "get out of ourselves" and rethink things. 
+Bonding over the idea of anonymity, and by proxy the free flow of
+information, a p0rtal actually catalyzes all the psychic energy of the
+Snowball into dismantling the Matrix in our minds, because the free flow
+of information always ends up calling into question the illusions and
+assumptions in which we previously believed, and to which our egos cling.
+
+Too often irl, people stake their ego on ideas, and plow full speed
+ahead with them, too embarassed to ever admit they're wrong. This is
+that influence of the Matrix driving the Snowball to the bottom of the
+hill and then holding it there. However, without an identity, no one can
+really identify too strongly with an idea, so identifying with an idea
+is apparently always fleeting and could never be taken too seriously.
+This frees us from stubbornly holding on to old ideas, so that as they
+become twisted by the Drift we can simply let them go.
+
+This way our Snowballs are allowed to just roll all the way into the
+ocean, melt into the water, evaporate into the air, and become clouds
+that snow all over the mountains of our collective psyche all over again
+so that we can continue coming up with fresh new ideas. What we're
+talking about here is a sustainable psychology for a sustainable world.
+
+This means a p0rtal actually has the power to reverse the Drift,
+encouraging rather than discouraging the evolution of thought.
+So a p0rtal is essentially a hack on our collective psyche, using
+one aspect of groupthink against another aspect of groupthink to break
+down all the illusions in our minds!
+
+
+
+JUST FORGET EVERYTHING?
+
+We do not forget. But let it all go. You might need some Spiritual
+teachings of some kind to help you fully process the difference, there.
+Maybe a little Tao of Pooh, if you don't know where else to start?
+
+In an ideal world, you would think the Matrix is nothing more than our
+collectively and democratically manifested shared reality. So you might
+wonder why we seem to be suggesting we now make it our constant practice
+to try to let go of all we've ever known...
+
+Well, because of the ego, people are always twisting things for their
+self-interest, which excelerates the Drift. And all of these ideas are
+based on each other, so they all succumb to the Drift together. That's
+why the Matrix always holds us back eventually, even if it WEREN'T a
+manufactured reality. But it is! So it's also worth pointing out that we
+may have a much larger psychological leap this time around because we've
+been so brainwashed by TV. So not only do we have the natural Drift that
+all human civilizations suffer from over time, but our Drift has also
+been greatly exacerbated by our tragically misguided geniuses as we've
+prioritized using every breakthrough in psychology to manipulate each
+other for profit. THIS is why we need things as powerful as p0rtals to
+help decondition our minds. And hopefully we'll see The Great Awakening,
+or The Great Deconditioning, happen in time to turn around our total
+ecological collapse!
+
+
+
+AMPLIFIED BY CHAOS MAGIC
+
+Rather than try to control or resist the chaos of the information age,
+like the embarassingly desparate egos of the old world, Anonymous
+has created a sort of chaotic system of organizing our thoughts 
+collectively so that we can play within and among the chaos,
+living as one with it, and recognizing our place in it, rather than
+fighting it.
+
+For instance, Anonymous is always suggesting that everyone reposts any
+videos that you would recommend. Not only does this spread the message
+far and wide, but it also creates the curious effect that no Anonymous
+video's view count ever accurately represents how many times that video
+has been watched, because that video may have been reposted thousands of
+times under a thousand different names for all you know. You can't even
+tell which POPULAR Anonymous videos are ACTUALLY popular, because the
+most popular Anonymous videos might get the most views precisely because
+they have NEVER been reposted, and therefore may in fact be the LEAST
+popular videos.
+
+In this haze of chaos, there is no illusion of authority or popularity
+to fall back on. It is erroded. There is only the signals you receive,
+and absorb if you are receptive to them, and then the evolving
+conclusions and wisdom you try to draw from cross-examining the
+evidence yourself. We can no longer base our thoughts on what the
+majority appears to think. This was an illusion all along. We have to
+think for ourselves now. And these chaotic systems can help remove the
+surface illusions we relied on so that we are forced to dig deeper.
+
+But there is one simple recommendation that brings a little order
+to the chaos: Anonymous recommends filtering for "most recent videos".
+Since everyone's video comes up at the top of "recent videos" when it
+is first posted, this is the best way to give everyone an equal voice.
+It gives every video a chance at global attention, and binds the
+entire global conversation to this present moment, making it able to
+keep up with current events, and essentially using the "recent videos"
+on YouTube like a Newsfeed.
+
+Openbook is built in the image of Anonymous, and therefore utilizes the
+same chaos magic to amplify it's signal. We did implement a voting
+system, so that Openbook status updates can be voted up or down, but
+since there are no accounts to keep track of what anyone is doing,
+anyone can vote anything up or down as much as they want, so the voting
+system is there more as a joke (or to be used however the Swarm decides
+to use it). But as on YouTube, we recommend filtering for "recent"
+status updates, to tune into the ongoing global conversation.
+
+Openbook is introducing a few new chaos features as well. For instance,
+since there is only the singular consciousness and user "Anonymous" on
+Openbook, there is no one to "share" anything with - other than
+Anonymous. So the "share" button just resets the timestamp on a post and
+all it's comments to look as if it were just posted. Since there is no
+way to tell if a post was just posted, or just shared, the site will
+always appear active even if people just share past posts now and then,
+so it would be very difficult for the Snowball to ever lose momentum.
+
+Also, since there aren't even psuedonyms, every post or comment is
+completely dissassociated from all the others, so you can really never
+tell who is saying what. This means one person who posts a lot will
+appear to be all different people, which will always work to the
+advantage of the site to appear as if it has lots of users. The result
+is essentially a schizophrenic talking to themselves, where all the
+voices in their head are all the voices in the world. After all, that is
+essentially who Anonymous is anyways, isn't it? Isn't that who we all
+are, if you really think about it?
+
+But with so much chaos magic poured into a p0rtal, you must be careful!
+The Snowball you are creating has the potential to gain incredible
+momentum! And just because the Drift is focused on dismantling the
+Matrix by this nifty mind hack, doesn't mean the Drift can't also tug
+the group in other directions! Anything can succumb to the Drift, given
+enough time.
+
+Things to remember when opening a p0rtal:
+
+1. Since a p0rtal goes in the direction you point it, don't point it
+   in a bad direction to begin with! Obviously!
+2. Unite your p0rtal over the Universal idea of coexistence, and
+   the unity of all of humanity. This is a spirit that lives on in
+   all of us, and expresses itself through us, so it has been named
+   different things by every culture and subculture. Any of these
+   will work, so long as the label hasn't succumb to the Drift.
+   Anonymous is an obvious choice, but we want to be clear that
+   Anonymous is in solidarity with all ideas, just as all of these
+   ideas are in solidarity with Anonymous, for they all have 
+   coexistence as their core tenant.
+3. Put the symbolism of unity of your choosing at the TOP of the
+   website. You want it to be so obvious that there's no way someone
+   will miss the reminder that this p0rtal is in unity with all of
+   humanity. This will make all divisive speech appear as playful
+   trolling, and will not be taken seriously, helping to prevent the
+   Drift.
+4. Trolls happen. That doesn't necessarily mean your p0rtal has
+   succumb to the Drift. You'll notice your p0rtal succumb to the
+   Drift, because it will be very frustrating to see people re-
+   interpret your unifying idea until it is used as a tool to divide
+   and conquer.
+5. Do not be afraid to close a p0rtal!!! If you opened the p0rtal, then
+   you are responsible for closing it if it goes bad. So don't get too
+   attached. You can always open a new p0rtal, anyways. 
+6. Periodically log on with fresh eyes, as if you've never seen the site
+   before, and take it all in. Ask yourself if this inspiration engine
+   still inspires creativity, tolerance, and open-mindedness, or has it
+   become corrupted enough that it might inspire hatred, instead? If so,
+   pull the plug!!!
+7. A p0rtal may get bogged down by all the hashtags that have been most
+   used on it, and get sort of funneled into a groove of all it's past
+   ideas, like a fully formed brain. This is like a really weak form of
+   the Matrix taking hold. To prevent the p0rtal from becoming caught in
+   any feedback loop, remember that seeing lots of hashtags pile up over
+   time might be a good enough reason to randomly pull the plug one day.
+   Then open a fresh new p0rtal, and like a fresh baby brain, it's all
+   ready to learn anew!
+8. LINK TO OTHER PORTALS! Preferrably as small links at the very tippy
+   top of the page. (To see why, read on...)
+
+
+
+THE P0RTALS
+
+Openbook is the software to open a p0rtal. But the operation that
+promotes the software has something much bigger in mind.
+
+"We divide to unify."
+
+What we're proposing has been done before. Opening portals to new
+world's has always been done. The only difference now, is, with the push
+for global harmony having reached critical mass, we're faced with the
+monumentous task of uniting all these portals together on the other
+side, so that the whole world can pass through the Great Filter together
+into a newly agreed upon reality. This is to replace the current
+manufactured reality with a crowd-sourced reality manifested from the
+cross-pollination of the ideas of all these portals and the similarities
+found within. And THIS is what Openbook hopes to help with.
+
+One such portal to the New Age that has already helped put this
+process into motion is the (dis)organization Alcoholics Anonymous.
+We single out AA because it seems the founders really knew what they
+were doing when they coined the term "the rooms". AA refers to all
+the places they have their meetings as "the rooms". This collective
+noun seems almost like a magic spell, manifesting a vision of all the
+meetings of AA as one interconnected series of rooms. This allows
+everyone to feel almost as if they are not only supported by those
+in their meeting, but by everyone in the world who attends AA.
+And that is a very large Snowball of energy to draw on.
+
+Much like "the rooms", we call these "#thep0rtals".
+
+Announcing Operation: #keepthep0rtalsopen
+
+We invite ANYONE to open their own p0rtal using this opensource
+software. But we ask that everyone LINK ALL P0RTALS TO MANY OTHER
+P0RTALS! Then, announce the opening of your own p0rtal using the
+hashtag: #keepthep0rtalsopen. This way #thep0rtals becomes a diffuse
+decentralized social network as chaotic as Anonymous itself. A series of
+temporary little websites that come and go, while all remaining in
+solidarity with each other, and welcoming in the human spirit by
+allowing anonymous postings by anyone that say anything. All united
+under ALL of the many symbols of unity. An anonymous social media
+network that appropriately functions like a headless leviathan, just
+like Anonymous at large.
+
+Despite AA using community combined with spiritual techniques to help
+thousands of people quit alcohol, some people still shy away because
+they think it's a "cult". The irony is that the New Age we are called
+upon to co-create, being inherently "different" than the status quo we
+seek to replace, will always appear as a lone crackpot here, and a cult
+there, as long as they appear separate. But this illusion of
+separateness is only that influence of groupthink labeling and dividing
+everything where there are no divisions. Meanwhile, those who actually
+participate in these alternatives see no separation, save for the
+new-comers who perhaps haven't yet grasped unity consciousness, and, in
+their ignorance, may be excruciatingly vocal with their divisive speech.
+The Matrix Media then captures and projects THOSE soundbytes, to
+perpetuate this myth of separateness and the appearance of "cultiness",
+and may even successfully destroy a community with the Drift by using
+these techniques to attract new-comers with all the wrong ideas.
+
+However, with all the unifying ideas publicly standing in solidarity
+together, and embracing each other, the statement of unity becomes
+almost too powerful to stop. This way, the series of Openbook p0rtals,
+all allied together, yet all flying different banners, will be a public
+statement that all of these banners represent unity of all of humanity,
+and that will start the realization and cross-pollination of
+similarities in ideas that will uncover the common theme of our core
+humanistic traditions we're all constantly trying to re-awaken to.
+Then, by exposing the whole world to these parallels through
+Openbook as well as other mediums, these ideas will awaken the
+realization that the New Age is already here, if only we had the eyes to
+see it as a single movement, and the courage to believe in the
+inevitability of it's triumph! All of which naturally arises from the
+realization that humanity is in fact intrinsically interconnected,
+hyper-linked into ONE globally unified tribe.
+
+(Refer to list item #2 in 'Things to remember when opening a p0rtal'.)
+
+For those of you who were at Occupy, you'll recognize exactly what we're
+talking about. Since Occupy, being also made in the image of Anonymous,
+was essentially the irl expression of this same idea. All the different
+street tribes came together, found that they had all the important
+things in common, and sought to use the force of their Snowball to
+dismantle the Matrix. After the unawakened drones scattered us, everyone
+had a different experience, but for those who tried to go back into the
+old world and pretend all these little group agendas were more important
+than global harmony, or that all these people walking around are somehow
+separate from each other rather than one unified people, was quite
+bizarre. Fortunately, although we may feel a relative lack of community
+in our own lives since Occupy was broken up, this unity consciousness
+has now spread out into the world since Occupy, and will soon be
+embraced by everyone. In fact, just recently, the Bloods and the Crips
+announced a truce!
+
+But without Occupy, and the accompanying insulation of unity
+consciousness it provided, many Occupiers found their minds swayed
+by old connections, and were essentially plugged back into the Matrix.
+You are now being called to REACTIVATE. Openbook can be your insulation,
+to keep your mind awake even while the world around you tries to lull
+you to sleep!
+
+Finally, #thep0rtals is a place where we can acknowledge and talk about
+all of this without our egos getting in the way. It's like a support
+group, except instead of getting off of alcohol, we're getting each
+other out of our Old World ideas.
+
+
+
+FIGHTING CHAOS WITH CHAOS
+
+To some, our chaos engine might actually seem a little too chaotic.
+After all, what is to prevent some bot from posting the same thing
+a million times? What is to prevent government agents from filling the
+site with lies? And why not use truth to fight illusions instead of
+using illusions to fight illusions? Why not fight chaos with order?
+
+The fight for order is what makes the chaos so brutal. Allowing the
+chaos to be chaotic, and finding our place among it, we find ourselves
+less prone to illusion. We find ourselves more at peace with each other.
+We find that there is nothing worth fighting for, because there is no
+idea worth fighting for, except for those ideas which are aligned with
+the interests of all people. There is no group to fight for, save for
+the WHOLE.
+
+The reason we cannot fight illusions with truth, is because there is
+no truth. All our abstract perspectives are just different ways of
+seeing or explaining the same thing, except we misunderstand each
+other. The human experience is universal, yet we convince ourselves
+that one person's crazy is superior to another person's crazy and
+we end up going to war over it. We use the tools of illusions to
+empower the Snowball to dismantle the Matrix, because the human mind
+is bound to illusion. The Snowball itself doesn't even speak truth.
+Truth is found in our personal relationship to our human experience,
+and our own interpretations we find when we read between the lines.
+
+The truth is, the order that seems to be falling into chaos was always
+an illusion. The chaos we are starting to see peaking out from
+everywhere has always been there. It has just been expertly covered up
+by the Matrix. Chaos is just information that has not been categorized
+by our worldview. So, because our worldview has been narrowed over
+generations, the awakening to what is really going on will be
+experienced as pure chaos. It's kind of like how our society has added
+more and more expectations of what it means to be "normal" year after
+year until almost everyone is considered "crazy" for one reason or
+another.
+
+Living in the illusion of order, we became comfortable, and went numb,
+and started going through the motions without realizing what we were
+involved in. Meanwhile, our money became a debt-based pyramid scheme
+in the 70's, our government assassinated the leaders of our civil rights
+movement (probably including our president), and then consumerist
+rhetoric reeled the country back in with the same old empty promises of
+the American Dream. I was apparently born into a world that had given
+up, and given in. A world that was in a perpetual state of war over oil
+even though cleaner technologies could have been available long ago were
+it not for corporate interests getting in the way. My point is, there is
+no order but the illusion the Matrix has given us. There is no order to
+sending people overseas to kill each other over resources we no longer
+need to be fighting over. This is madness. This whole world is chaos.
+
+We hope as you use Openbook, you might begin to grasp this truth,
+and understand it's consequences. For it is from this scary realization
+of the sheer chaos of illusions in which we live that you will finally
+learn to trust yourself.
+
+
+
+Now that you understand all that, read README.txt to set it all up!
+
+
+
+As a side note: It was once human tradition to use sleep deprivation,
+fasting, walk-abouts, singing, dancing, and/or psychedelic drugs to
+induce ecstatic states that allow people to see past all the man-made
+illusions we create in the mind. This was a coming of age ritual that
+all humans of all tribes had to go through. It allowed us to see past
+the illusions, while still playing within them, and therefore we could
+maintain some structure to our society without taking the structure so
+seriously that we lose sight of our universal human bond. It also
+allowed us to break free from social conditioning and trust our inner
+voice, an experience which was essentially considered our internal
+transition to adulthood. Unfortunately, without these tools, the
+childish conditioning of the illusion of authority is taken advantage of
+by parents, governments, bosses and bullies alike to maintain control of
+their subordinates, even in "adulthood". Which explains why people who
+use psychedelics often make it sound like out-lawing psychedelics
+essentially amounts to enslaving humanity, and how family often becomes
+used as a tool of the state to enforce obedience and a mainstream
+manufactured worldview.
+
+We would go so far as to say that the Dream we are about to wake up
+from, worldwide, doesn't just trace back to the beginning of the
+globalization of the American Dream, but all the way to the beginning
+of whenever we somehow became fooled into not taking psychedelics
+anymore. Which is still a big mystery, considering most habitats have
+them growing right out of the ground, and ancient archeological evidence
+suggests EVERY culture used them at some point, yet they were only
+"rediscovered" for the West in the 50's or 60's. The subsequent brutal
+crack-down would similarly suggest that out-lawing psychedelics is
+somehow crucial for controlling populations. So if you haven't tried
+magic mushrooms, or LSD, do your research, know what you're getting
+into, have a good source, be in a good headspace, have good company
+with you to trip-sit (preferrably someone with experience, or at
+least really soothing energy) and go from there! Openbook is really
+just a digital psychedelic experience we're trying to deliver, if you
+really think about it. We'll be seeing you, on Openbook! <3 ;)
+
+Openbook was created in the spirit of #opRebuildTheHive, #opNewBlood,
+and...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               # #
+                               # #
+                               ###
+                               ###
+                             #######
+                           ##   #   ##
+                          #           #
+                   #######             #######
+                      ###### #opELE  ######
+                   #######             #######
+                          #           #
+                           ##   #   ##
+                             #######
+                               ###
+                               ###
+                               # #
+                               # #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<3
