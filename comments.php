@@ -107,7 +107,7 @@
 		$row = mysqli_fetch_array($post);
 		if($row){
 			//get main post
-			$post = $row['post'];
+			$post = mysqli_real_escape_string($conn,$row['post']);
 			//get main post timestamp
 			$timestamp = $row['timestamp'];
 		}else{
