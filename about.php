@@ -104,7 +104,7 @@
 <?php
 
 	/** Updates mail icon to alert user of how many posts in the users 'watch list' have had comments added. **/
-	if(count($watching)>0 1==1){
+	if(count($watching)>0){
 		$updates = 0;
 		//check for updates for each postid,timestamp pair in $watching
 		foreach($watching as $postidkey=>$lastactivitytimestamp){
@@ -120,7 +120,6 @@
 			}
 		}
 		//if there are updates, show the mail icon, and how many updates there are.
-		$updates = 3;
 		if($updates>0){
 
 ?>
