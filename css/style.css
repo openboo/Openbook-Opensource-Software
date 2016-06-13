@@ -1,0 +1,284 @@
+/* Universal Style */
+body {
+	background-color: #575;
+	padding-bottom: 40px;
+}
+
+/* Updates Page */
+#newcomments{
+	margin: 0px;
+	padding: 0px;
+
+	background-color: #131;
+	font-weight: bold;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#newcomments:hover{
+	background-color: gray;
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+/* Header */
+#header {
+	margin: 0px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+
+	text-align: center;
+	border-radius: 0px 0px 10px 10px;
+
+	background-color: #353;
+}
+
+#header h1 a {
+	font-size: 72px;
+	line-height: 1;
+	letter-spacing: 10px;
+	text-shadow: 2px 2px black;
+
+	color: white;
+}
+
+#slogan{
+	font-size: 16px;
+
+	color: white;
+}
+
+/* Nav Bar */
+#navbar{
+	padding: 0px;
+	margin: 0px;
+}
+
+#navbar li{
+	padding: 5px;
+	padding-left: 0px;
+
+	font-size: 16px;
+}
+
+.nav-pills li a{
+	color: #021;
+}
+
+.nav-pills li a:hover, .nav-pills li a:focus{
+	color: #031;
+}
+
+.nav-pills li.active a, .nav-pills li.active a:hover, .nav-pills li.active a:focus{
+	background-color: #131;
+	color: white;
+}
+
+.nav-pills li a:hover, .nav-pills li a:focus{
+	background-color: #464;
+	color: black;
+}
+
+.nav-pills li a{
+	border-radius: 10px;
+}
+
+/* Form Box */
+/*  used for Status Update Box */
+/*  used for Comment Box */
+.formbox{
+	margin: 0px;
+	margin-bottom: 10px;
+	padding:10px 5px 10px 10px;
+
+	font-size: 16px;
+	border-radius: 10px;
+
+	color: white;
+	background-color: #353;
+}
+
+.formbox form{
+	width: 100%;
+}
+
+/* Form Box Elements (generic) */
+.formtext{
+	margin: 0px;
+
+	font-size: 18px;
+
+	border: 1px solid #999;
+	border-radius: 5px;
+
+	color: black;
+}
+
+.formbutton{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 0px;
+
+	width: 20%;
+	height: 30px;
+
+	font-size: 18px;
+	border: 0px;
+	border-radius: 5px;
+
+	color: black;
+	background-color: #464;
+}
+
+.formbutton:hover{
+	background-color: #9D9;
+	color: black;
+}
+
+/* Status Box Elements */
+#status{
+	width: 78%;
+}
+
+#updatebutton{
+	width: 20%;
+	height: 30px;
+}
+
+/* Comment Box Elements */
+#comment{
+	width: 98%;
+}
+
+#replybutton{
+	margin-top: 10px;
+	margin-right: 2%;
+}
+
+/* Filter */
+.filter{
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 6px;
+
+	font-size: 18px;
+
+	color: black;
+}
+
+.filter a{
+	padding: 3px;
+
+	text-decoration: underline;
+
+	color: black;
+}
+
+.filter a:hover{
+	color: white;
+	background-color: #444;
+}
+
+.filter .selected{
+	text-decoration: none;
+
+	color: white;
+	background-color: black;
+}
+
+/* Posts are the list of Status Updates or Comments */
+.post{
+	margin: 0px;
+	margin-bottom: 10px;
+	padding:10px 5px 10px 10px;
+
+	font-size: 16px;
+	border-radius: 10px;
+
+	color: black;
+	background-color: #DFD;
+}
+
+.content{
+	font-size: 17px;
+}
+
+.post img{
+	border: 1px solid #464;
+}
+
+.post .colored{
+	color: #151;
+	margin-right: 5px;
+}
+
+.post a:hover{
+	color: #5555FF;
+}
+
+.post a{
+	text-decoration: underline;
+}
+
+/* Alert about Tor-Browser and Government Surveillance */
+#alert{
+	padding: 10px;
+	background-color: purple;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#alert a{
+	text-decoration: underline;
+	color: white;
+}
+
+/* Quotes */
+.quote{
+	font-family: Verdana; sans-serif;
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	right: 5%;
+}
+
+/* LieWeLiveImage */
+#liewelive img{
+	border: 5px solid black;
+}
+
+#liewelive:hover{
+}
+
+a{
+	color: #050;
+}
+
+h2{
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.buttonlink{
+	background:none!important;
+	border: 0px;
+	padding: 0px!important;
+	font: inherit;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.quotedtext{
+	border-radius: 10px;
+	background-color: #9D9;
+	padding: 10px;
+}
