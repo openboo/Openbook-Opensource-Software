@@ -9,12 +9,11 @@
 		<meta charset="utf-8">
 		<title>openbook</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="description" content="An Anonymous hive mind social media network website. One p0rtal among #thep0rtals.">
+		<meta name="author" content="Anonymous">
 
 		<!-- Styles for Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 
 		<!-- Extra Stylin' -->
 		<link href="css/style.css" rel="stylesheet">
@@ -23,13 +22,6 @@
 		<!--[if lt IE 9]>
 			<script src="../assets/js/html5shiv.js"></script>
 		<![endif]-->
-
-		<!-- Fav and touch icons -->
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-		<link rel="shortcut icon" href="ico/favicon.png">
 
 		<!-- Simple Ajax Library (SAL) -->
 		<script language="javascript" src="js/ajax.js"></script>
@@ -249,11 +241,11 @@
 
 /** TL;DR Alert **/
 ?>
-		<div id="disappear">
-			<div id="alert">
-				<a onclick="SetInnerHTMLFromAjaxResponse('nothing.php','disappear')" href="#"><span id="closebutton" class="glyphicon glyphicon-remove pull-right"></span></a>
-				TL;DR. Too many characters! It's over 9,000!!!1!11
-			</div>
+		<div id="alert">
+			<a href="?off=bigbrotheralert" style="float: right;"><img id="closebutton" style="border: 0px;" src="closebutton.png"></a>
+			Browser activity and IP addresses are being logged by government surveillance.
+			<br/>
+			Anonymity is won only by understanding and using multiple tools like <a href="http://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029">Tor-Browser</a>.
 		</div>
 <?php
 
@@ -329,7 +321,7 @@
 
 ?>
 						<li>
-							<a href="updates.php"><span style="display: inline;" class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<?php echo $updates; ?></a>
+							<a href="updates.php"><span style="display: inline;"><img src="mailicon.png" /></span>&nbsp;&nbsp;<?php echo $updates; ?></a>
 						</li>
 <?php
 
@@ -621,23 +613,6 @@
 
 		</div><!-- /container -->
 
-		<!-- javascript
-		================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap-transition.js"></script>
-		<script src="js/bootstrap-alert.js"></script>
-		<script src="js/bootstrap-modal.js"></script>
-		<script src="js/bootstrap-dropdown.js"></script>
-		<script src="js/bootstrap-scrollspy.js"></script>
-		<script src="js/bootstrap-tab.js"></script>
-		<script src="js/bootstrap-tooltip.js"></script>
-		<script src="js/bootstrap-popover.js"></script>
-		<script src="js/bootstrap-button.js"></script>
-		<script src="js/bootstrap-collapse.js"></script>
-		<script src="js/bootstrap-carousel.js"></script>
-		<script src="js/bootstrap-typeahead.js"></script>
 		<script>
 			document.getElementById("status").onkeyup = function() {collectivize()};
 			function collectivize() {
