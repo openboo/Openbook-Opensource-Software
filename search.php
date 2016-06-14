@@ -2,26 +2,7 @@
 <?php include("hashtaglib.php");?>
 <?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
 <?php include("watchlist.php");?>
-		<!-- Page Container -->
-		<div class="container-narrow">
-
-			<!-- Header -->
-			<div class="container-fluid">
-				<div class="row-fluid">
-	  
-					<!-- Title Bar -->
-					<div id="header">
-						<a href="index.php">
-							<img style="width: 80%" src="openbook.png" />
-						</a>
-						<p id="slogan">
-							"Man is least himself when he talks in his own person.<br/>
-							Give him a mask, and he will tell you the truth."
-						</p>
-						<div style="clear:both;"></div>
-					</div>
-	  
-					<!-- Nav Bar -->
+					<!-- Nav Bar - Search -->
 					<ul id="navbar" class="nav nav-pills pull-left">
 						<li><a href="index.php">Newsfeed</a></li>
 						<li class="active"><a href="search.php">Search</a></li>
