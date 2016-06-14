@@ -1,81 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<!--You've uncovered another stop on the underground railroad!-->
-		<!--Perhaps you're looking for: p0rtalurl/IMPORTANT.txt -->
-
-		<!-- Metadata -->
-		<meta charset="utf-8">
-		<title>openbook</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="An Anonymous hive mind social media network website. One p0rtal among #thep0rtals.">
-		<meta name="author" content="Anonymous">
-
-		<!-- Styles for Bootstrap -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		
-		<!-- Extra Stylin' -->
-		<link href="css/style.css" rel="stylesheet">
-
-		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-		<!--[if lt IE 9]>
-			<script src="../assets/js/html5shiv.js"></script>
-		<![endif]-->
-
-		<!-- Simple Ajax Library (SAL) -->
-		<script language="javascript" src="js/ajax.js"></script>
-
-	</head>
-
-	<body>
-
-<?php
-
-	/** Set up Database **/
-	//connect or die with error message.
-	$conn = mysqli_connect("serveraddress","SQLuser","databasepassword","databasename");
-	if (!$conn) {
-		die("Connection failed: " . mysqli_connect_error());
-	}
-
-	/** Set up Watch List **/
-	/* The watch list keeps track of which posts we posted or commented on, and the last time we viewed them.
-	 * This list is stored in our cookies, as pairings of a post id, and the timestamp we last viewed that post.
-	 * This list is then used to alert the user if there are any new comments on any posts in their watch list.
-	 * It does this by comparing the last time you viewed a post with the timestamp on it's most recent comment. */
-	//This is the variable used to interact with the watch list, representing the watch list in our cookies.
-	$watching = array();
-	//Check if the watch list cookie is set.
-	if(isset($_COOKIE['watching'])){
-		//If so, set our watching variable to match the actual watch list in the cookies.
-		$cookie = stripslashes($_COOKIE['watching']);
-		//update watching var
-		$watching = json_decode($cookie,true);//decode cookie
-	}
-
-	/** Big Brother Alert **/
-	$off = "";
-	if(isset($_GET['off'])){
-		$off = $_GET['off'];
-		if($off=="bigbrotheralert"){
-			setcookie("bigbrotheralert","off");
-		}
-	}elseif(!isset($_COOKIE['bigbrotheralert'])){
-
-
-?>
-		<div id="alert">
-			<a href="?off=bigbrotheralert" style="float: right;"><img id="closebutton" style="border: 0px;" src="closebutton.png"></a>
-			Browser activity and IP addresses are being logged by government surveillance.
-			<br/>
-			Anonymity is won only by understanding and using multiple tools like <a href="http://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029">Tor-Browser</a>.
-		</div>
-<?php
-
-	}
-
-?>
+<?php include("header.php");?>
+<?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
+<?php include("watchlist.php");?>
 
 		<!-- Page Container -->
 		<div class="container-narrow">
@@ -368,9 +293,15 @@
 						Copycat websites are welcome, as diversity is in nature itself and Anonymous
 						is only powerful with multiplicity and decentralization.
 						<br/><br/>
-						Openbook Opensource Software is copylefted under the
-						<a href="LICENSE">Affero GPLv3</a> which means any and all modifications made to the website must be open-source as well, and
-						any website based on this software must provide a link to it's own source-code: <a href="https://github.com/openboo/Openbook-Opensource-Software">So here is this p0rtal's source code</a>.
+						Openbook Opensource Software is copy-lefted under the
+						GNU Affero General Public License Version 3.
+						We have a copy you can read for yourself, <a href="LICENSE">right here</a>.
+						It is essentially a modified version of the ordinary GNU GPL version 3,
+						with one added requirement: if you run a modified program on a server
+						and let other users communicate with it there, your server must also allow them
+						to download the source code corresponding to the modified version running there.
+						This is just in the interests of making it easier for anyone to start their own
+						Openbook p0rtal, even duplicating or modeling it after a modified one if they wish.
 						<br/><br/>
 						This website was created in the spirit of <a href="http://distribution.neocities.org">distribution</a>.
 					</span>
