@@ -1,49 +1,6 @@
+<?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
+<?php include("hashtaglib.php");?>
 <?php
-	/** Set up Database **/
-	//connect or die with error message.
-	$conn = mysqli_connect("serveraddress","SQLuser","databasepassword","databasename");
-	if (!$conn) {
-		die("Connection failed: " . mysqli_connect_error());
-	}
-    
-	/** Hashtags Library **/
-
-	/* Get a printable array of hashtags from a string. */
-	function get_hashtags($string, $str = 1) {
-		preg_match_all('/#(\w+)/',$string,$matches);
-		$i = 0;
-		if ($str) {
-			foreach ($matches[1] as $match) {
-				$count = count($matches[1]);
-				$keywords .= "$match";
-				$i++;
-				if ($count > $i) $keywords .= ", ";
-			}
-		} else {
-			foreach ($matches[1] as $match) {
-				$keyword[] = $match;
-			}
-			$keywords = $keyword;
-		}
-		return $keywords;
-	}
-
-	/* Convert a string so that all hashtags are turned into pre-formatted links (as defined in the function above).*/
-	function hashtag_links($string) {
-		//Find all matches to character strings that start with '#'.
-		preg_match_all('/#(\w+)/',$string,$matches);
-		//Convert each one into a pre-formatted link by surrounding it with the <a> tags.
-		foreach ($matches[1] as $match) {
-			//The way we use it here is just to link to the search page, where the search is for the hashtag.
-			$string = str_replace("#$match", "<a href='search.php?search=%23$match'>#$match</a>", "$string");
-		}
-		return $string;//Returns the newly formatted link-filled string, as ordered.
-	}
-
-
-
-
-
 	if(isset($_GET['id'])){
 		$lastid = mysqli_real_escape_string($conn,$_GET['id']);
 		$sortby = "recent";
