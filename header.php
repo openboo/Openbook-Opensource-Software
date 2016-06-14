@@ -29,3 +29,40 @@
 	</head>
 	<body>
 <?php include("bigbrotheralert.php");//the only thing about including it here is that this alert is always above any other alerts.?>
+
+		<!-- Page Container -->
+		<div class="container-narrow">
+
+			<!-- Header -->
+			<div class="container-fluid">
+				<div class="row-fluid">
+
+					<!-- 0ther p0rtals -->
+					<div id="link2p0rtals">
+						others:
+<?php
+						/** Appends sub-page and GET vars to every p0rtal link.
+						 *  This helps give even more continuity among #thep0rtals.
+						 * And enables searching for the same thing on many p0rtals easily.
+						 **/
+						$url = "$_SERVER[REQUEST_URI]";
+						$pageurl = pathinfo($url,PATHINFO_BASENAME);
+?>
+						<a href="p0rtalurl/<?php echo $pageurl;?>">p0rtal</a>
+						<a href="p0rtalurl/<?php echo $pageurl;?>">p0rtal</a>
+						<a href="p0rtalurl/<?php echo $pageurl;?>">p0rtal</a>
+						<a href="p0rtalurl/<?php echo $pageurl;?>">p0rtal</a>
+						<a href="p0rtalurl/<?php echo $pageurl;?>">p0rtal</a>
+					</div>
+	  
+					<!-- Title Bar -->
+					<div id="header">
+						<a href="index.php">
+							<img style="width: 80%" src="openbook.png" />
+						</a>
+						<p id="slogan">
+							"Man is least himself when he talks in his own person.<br/>
+							Give him a mask, and he will tell you the truth."
+						</p>
+						<div style="clear:both;"></div>
+					</div>
