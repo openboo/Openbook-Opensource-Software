@@ -31,8 +31,9 @@ body {
 #link2p0rtals{
 	height: 30px;
 	color: white;
-	float: left;
 	padding: 5px;
+
+	background-color: #353;
 }
 #link2p0rtals a{
 	color: white;
