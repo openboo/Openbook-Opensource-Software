@@ -142,10 +142,10 @@ In which case, some of these steps may be redundant.
    phpMyAdmin, select the database you created, and select "RUN" to run
    code on that database. It has the option of uploading the file or
    pasting the code from the file right into it - either will work.
-8. Go to all the PHP files, and enter the database name and password
-   anywhere it says "databasename" and "databasepassword". These will be
-   found once in just about every PHP file. You'll need to edit the same
-   line of code again in the next step, so don't close those files, yet.
+8. Go into the databasesetup.php file, and enter the database name and
+   password where it says "databasename" and "databasepassword". These
+   will be found once in just about every PHP file. You'll need to edit
+   this file again in the next step, so don't close it, yet.
 9. Then replace "SQLuser" and "serveraddress" according to the settings
    of your hosting service. If you're hosting it on your own computer,
    the serveraddress will likely be "localhost". It may be "localhost"
