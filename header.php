@@ -60,6 +60,15 @@
 						<a href="index.php">
 							<img style="width: 80%" src="openbook.png" />
 						</a>
+
+						<ol>
+							<li>We acknowledge that we are all the same. That we are all products of our environment. And that, all circumstances being the same, we would all make the same decisions. The same great discoveries, and the same horrible mistakes.</li>
+							<br/>
+							<li>We acknowledge that any participation in the exchange economy disrupts the natural flow of distribution by diverting resources disproportionately to those who already have resources.</li>
+							<br/>
+							<li>We wish to overcome our addiction to the empty comforts of capitalism, transition from scarcity mentality to abundance mentality, meet our needs through community instead of with money, and ultimately live for free on liberated land with continued participation in a network of mutual support.</li>
+						</ol>
+
 						<p id="slogan">
 							"Man is least himself when he talks in his own person.<br/>
 							Give him a mask, and he will tell you the truth."
