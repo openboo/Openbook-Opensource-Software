@@ -58,7 +58,6 @@
 					<!-- Title Bar -->
 					<div id="header">
 						<a href="index.php">
-							<img style="width: 80%" src="openbook.png" />
 						</a>
 
 						<ol>
@@ -68,10 +67,5 @@
 							<br/>
 							<li>We wish to overcome our addiction to the empty comforts of capitalism, transition from scarcity mentality to abundance mentality, meet our needs through community instead of with money, and ultimately live for free on liberated land with continued participation in a network of mutual support.</li>
 						</ol>
-
-						<p id="slogan">
-							"Man is least himself when he talks in his own person.<br/>
-							Give him a mask, and he will tell you the truth."
-						</p>
 						<div style="clear:both;"></div>
 					</div>
