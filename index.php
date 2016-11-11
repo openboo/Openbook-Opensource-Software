@@ -89,6 +89,7 @@
 	if(isset($_POST['status'])){
 		//get the status update that was entered.
 		$status = htmlentities($_POST["status"]);//receive post
+		
 		//character limit
 		if(strlen($status)<=9000){//character limit says it can't go over 9000!!!1
 
@@ -211,7 +212,7 @@
 						Status update:
 		
 						<form id="statusform" action="index.php" method="post">
-							<input id="status" name="status" class="formtext" type="text" value="<?php echo stripslashes($status); ?>"></input>
+							<input id="status" name="status" class="formtext" type="text" value=""></input>
 							<input id="updatebutton" class="formbutton" type="submit" value="Update"></input>
 						</form>
 	  
