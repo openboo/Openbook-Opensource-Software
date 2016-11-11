@@ -3,19 +3,18 @@
 
 	/* Get a printable array of hashtags from a string. */
 	function get_hashtags($string, $str = 1) {
-		//emulate a space before, so you can start a post with a hashtag
 		preg_match_all('/(^|\s)#(\w*[a-zA-Z_]+\w*)/',$string,$matches);
 		$i = 0;
 		$keywords = [];
 		if($str){
-			foreach ($matches[1] as $match){
-				$count = count($matches[1]);
+			foreach ($matches[2] as $match){
+				$count = count($matches[2]);
 				$keywords .= "$match";
 				$i++;
 				if ($count > $i) $keywords .= ", ";
 			}
 		}else{
-			foreach ($matches[1] as $match){
+			foreach ($matches[2] as $match){
 				$keyword[] = $match;
 				$keywords = $keyword;
 			}
