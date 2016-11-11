@@ -1,4 +1,5 @@
 <?php include("header.php");?>
+<?php include("urllib.php");?>
 <?php include("hashtaglib.php");?>
 <?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
 <?php include("watchlist.php");?>
@@ -83,7 +84,7 @@
 
 
 	/** Insert status **/
-	$status = "We are ";//default value for the form element
+	$status = "";//default value for the form element
 	//check if status is posted...
 	if(isset($_POST['status'])){
 		//get the status update that was entered.
@@ -103,7 +104,7 @@
 			$row = mysqli_fetch_assoc($results);
 			$lastpost = $row['post'];
 			//Prevents doubles AND blank, or relatively 'blank', status updates.
-			if($lastpost!=$finalstatus && trim($finalstatus)!="We are" && trim($finalstatus)!="We" && trim($finalstatus)!=""){
+			if($lastpost!=$finalstatus && trim($finalstatus)!=""){
 
 				/* INSERT status update */
 				$query = "INSERT INTO posts (post,timestamp) VALUES ('".mysqli_real_escape_string($conn,$finalstatus)."',".time().");";
@@ -210,7 +211,7 @@
 						Status update:
 		
 						<form id="statusform" action="index.php" method="post">
-							<input id="status" onkeyup="alert(collectivize());" name="status" class="formtext" type="text" value="<?php echo stripslashes($status); ?>"></input>
+							<input id="status" name="status" class="formtext" type="text" value="<?php echo stripslashes($status); ?>"></input>
 							<input id="updatebutton" class="formbutton" type="submit" value="Update"></input>
 						</form>
 	  
@@ -329,19 +330,7 @@
 
 <?php
 
-		/** The 'We said' Clause**
-		 * If a post doesn't start with "We" it is fixed to start with "We said:"
-		 * This maintains the spirit of singularity, or unity, and doubles as a decent platform for "sharing" comments, who don't have to start with "We". */
-		 //Possible glitch: Comments that start with "we", when shared, will not be prefaced with "We said", and will just look like regular posts. Whatevs. Let's say it's on purpose.
-		if(substr($post,0,3)=="We "){
-			echo hashtag_links(stripslashes($post));
-		}else{
-			echo "<span style='font-size: 17px;'>We said:</span><br/>";
-			echo "<div class='quotedtext'>";
-			echo hashtag_links(stripslashes($post));
-			echo "</div>";
-		}
-		//Since the "We said" clause is after everything, the tags added in will get inside the quote. Whatevs?
+		echo hashtag_links(url_links(stripslashes($post)));
 
 ?>
 						</span>
@@ -480,16 +469,6 @@
 ?>
 
 		</div><!-- /container -->
-
-		<script>
-			document.getElementById("status").onkeyup = function() {collectivize()};
-			function collectivize() {
-				var statusBox = document.getElementById("status");
-				if(statusBox.value.length<3){
-					statusBox.value = statusBox.value = "We ";
-				}
-			}
-		</script>
 
 	</body>
 
