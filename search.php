@@ -1,4 +1,5 @@
 <?php include("header.php");?>
+<?php include("urllib.php");?>
 <?php include("hashtaglib.php");?>
 <?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
 <?php include("watchlist.php");?>
@@ -224,16 +225,7 @@
 						<br/>
 						<span class="content">
 <?php
-
-		if(substr($post,0,3)=="We "){
-			echo hashtag_links(stripslashes($post));
-		}else{
-			echo "<span style='font-size: 17px;'>We said:</span><br/>";
-			echo "<div class='quotedtext'>";
-			echo hashtag_links(stripslashes($post));
-			echo "</div>";
-		}
-
+		echo hashtag_links(url_links(stripslashes($post)));
 ?>
 						</span>
 						<br/>
