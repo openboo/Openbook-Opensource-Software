@@ -104,7 +104,7 @@
 			$row = mysqli_fetch_assoc($results);
 			$lastpost = $row['post'];
 			//Prevents doubles AND blank, or relatively 'blank', status updates.
-			if($lastpost!=$finalstatus && trim($finalstatus)!=""){
+			if($lastpost!=$finalstatus && trim($finalstatus)!="<br/><br/>"){
 
 				/* INSERT status update */
 				$query = "INSERT INTO posts (post,timestamp) VALUES ('".mysqli_real_escape_string($conn,$finalstatus)."',".time().");";
