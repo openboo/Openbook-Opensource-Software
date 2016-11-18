@@ -1,4 +1,5 @@
 <?php include("header.php");?>
+<?php include("urllib.php")?>
 <?php include("hashtaglib.php");?>
 <?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
 <?php include("watchlist.php");?>
@@ -8,18 +9,6 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
   
-				<!-- Title Bar -->
-				<div id="header">
-					<a href="index.php">
-						<img style="width: 80%" src="openbook.png" />
-					</a>
-					<p id="slogan">
-						"Man is least himself when he talks in his own person.<br/>
-						Give him a mask, and he will tell you the truth."
-					</p>
-					<div style="clear:both;"></div>
-				</div>
-
 				<!-- Nav Bar -->
 				<ul id="navbar" class="nav nav-pills pull-left">
 
@@ -59,11 +48,13 @@
 	<?php
 
 	/** Select and display updates **/
-
+	$updates = 0;
 	if(count($watching)>0){
-		$updates = 0;
 		//check for updates for each postid,commentid pair in $watching
 		foreach($watching as $postidkey=>$lastactivitytimestamp){
+		     //last activity timestamp doesn't change w more comments.
+		     //so it's more like the first activity timestamp that hasn't been viewed
+		     //so all timestamps greater than it are all new
 			$query = "SELECT timestamp FROM posts WHERE parent='{$postidkey}' ORDER BY timestamp DESC LIMIT 1;";
 			$result = mysqli_query($conn,$query);
 			$row = mysqli_fetch_array($result);
@@ -83,7 +74,7 @@
 				$timestamp = $row['timestamp'];
 
 				//ALSO needed, $numcomments = ???
-				$query = "SELECT id FROM posts WHERE parent='{$postidkey}';";
+				$query = "SELECT id FROM posts WHERE parent='{$postidkey}' AND  timestamp>{$lastactivitytimestamp}";
 				$results = mysqli_query($conn,$query);
 				$numcomments = mysqli_num_rows($results);
 
@@ -120,7 +111,7 @@
 					<span class="content">
 	<?php
 
-			echo hashtag_links(stripslashes($post));
+               echo hashtag_links(url_links(stripslashes($post)));
 	?>
 					</span>
 					<br/>
@@ -132,7 +123,7 @@
 
 					<div id='newcomments'>
 						<a style="color: white; padding: 10px; display: block; text-decoration: none;" href="comments.php?id=<?php echo $id; ?>#replybox">
-							<span style="font-size: 20px; font-family:‘Courier New’, Courier, monospace;">
+							<span style="font-size: 20px; font-family:'Courier New, Courier, monospace';">
 								<?php echo $numcomments; ?> new comments
 							</span>
 						</a>
@@ -146,32 +137,24 @@
 	<?php
 			}
 		}
-		if($updates<1){
-
-	?>
-
-			<!-- Status Update -->
-			<div class="container-fluid">
-				<div class="row-fluid post">
-					<center>No updates.</center>
-				</div>
-			</div>
-	<?php
-		}
 	}
+	
+	if($updates<1){
+	?>
+		<!-- Status Update -->
+		<div class="container-fluid">
+			<div class="row-fluid post">
+				<center>No updates.</center>
+			</div>
+		</div>
+	<?php
+	}
+
 
 	?>
 
     </div><!-- /container -->
 
-    <script>
-      document.getElementById("status").onkeyup = function() {collectivize()};
-      function collectivize() {
-        var statusBox = document.getElementById("status");
-        if(statusBox.value.length<3){
-          statusBox.value = statusBox.value = "We ";
-		}
-      }
-    </script>
   </body>
 </html>
+    
