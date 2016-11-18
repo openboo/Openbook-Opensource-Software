@@ -1,4 +1,5 @@
 <?php include("header.php");?>
+<?php include("urllib.php");?>
 <?php include("hashtaglib.php");?>
 <?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
 <?php include("watchlist.php");//set up watch list?>
@@ -161,7 +162,7 @@
 							<span class="content">
 	<?php
 
-		echo hashtag_links(stripslashes($post));
+		echo hashtag_links(url_links(stripslashes($post)));
 
 	?>
 							</span>
@@ -217,7 +218,7 @@
 	<?php
 
 	//Select all relevant comments
-	$query = "SELECT id,post,timestamp FROM posts WHERE parent='{$postid}' ORDER BY timestamp DESC;";
+	$query = "SELECT id,post,timestamp FROM posts WHERE parent='{$postid}' ORDER BY timestamp ASC;";
 	$posts = mysqli_query($conn,$query);
 	$latestid = 0;//store latest comment id for later use in cookies checking for updates on commented posts
 	while($row = mysqli_fetch_array($posts)){
@@ -261,7 +262,7 @@
 						<span class="colored"><?php echo $minutesago;?></span>
 						<br/>
 						<span>
-							<?php echo hashtag_links(stripslashes($post)); ?>
+							<?php echo hashtag_links(url_links(stripslashes($post))); ?>
 						</span>
 						<br/>
 						<form style="display: inline;" action="index.php" method="post">
