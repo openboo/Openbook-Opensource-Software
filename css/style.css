@@ -3,6 +3,11 @@ body {
 	background-color: #575;
 	padding-bottom: 40px;
 }
+        
+/*Responsive line-breaks*/
+@media screen and (min-width: 768px){
+       .rwd-break { display: none; }
+}
 
 /* Updates Page */
 #newcomments{
