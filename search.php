@@ -69,7 +69,7 @@
 			$uses = (int)$row['uses'];
 			$maxfontsize = 25;
 			$fontsize = ceil(($uses/$most_uses)*$maxfontsize)+5;
-			echo "<span style='font-size:{$fontsize}px'><a style='color:white; cursor: pointer;' onclick='document.getElementById(\"status\").value+=\" #{$tag}\"'>#{$tag}</a></span> ";
+			echo "<span style='font-size:{$fontsize}px'><a style='color: white;' href='?search=%23{$tag}'>#{$tag}</a></span> ";
 		}
 	}
 
@@ -197,8 +197,8 @@
 				
 					<!-- User Identity -->
 					<div class="col-sm-2 col-xs-3" style="1px solid black; margin: 0px; padding: 0px;">
-						<img src="anons/anon<?php echo(rand(1,$settings['numimages']).".".$settings['imagetype']);?>" />
-					        Anonymous
+						<img src="anons/anon<?php echo(rand(1,47)); ?>.jpg" />
+						Anonymous
 					</div>
 	  
 					<!-- Status Update Content -->
