@@ -87,7 +87,7 @@
             
 				<!-- User Identity -->
 				<div class="col-sm-2 col-xs-3" style="1px solid black; margin: 0px; padding: 0px;">
-					<img src="anons/anon<?php echo(rand(1,47)); ?>.jpg" />
+					<img src="anons/anon<?php echo(rand(1,$settings['numimages']).".".$settings['imagetype']);?>" />
 					Anonymous
 				</div>
   
