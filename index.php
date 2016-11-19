@@ -88,7 +88,6 @@
 	//check if status is posted...
 	if(isset($_POST['status'])){
 		//get the status update that was entered.
-		
 		$status = htmlentities($_POST["status"]);//receive post
 		
 		//character limit
@@ -154,7 +153,7 @@
 /** TL;DR Alert **/
 ?>
 		<div id="alert" style="background-color:red;">
-			The length of your post is over 9000!!!!11!1 Too long!
+			TL;DR!!! The length of your post is over 9000!!!!11!1 Too long!
 		</div>
 <?php
 
