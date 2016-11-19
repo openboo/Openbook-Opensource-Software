@@ -88,6 +88,7 @@
 	//check if status is posted...
 	if(isset($_POST['status'])){
 		//get the status update that was entered.
+		
 		$status = htmlentities($_POST["status"]);//receive post
 		
 		//character limit
@@ -152,11 +153,8 @@
 
 /** TL;DR Alert **/
 ?>
-		<div id="alert">
-			<a href="?off=bigbrotheralert" style="float: right;"><img id="closebutton" style="border: 0px;" src="closebutton.png"></a>
-			Browser activity and IP addresses are being logged by government surveillance.
-			<br/>
-			Anonymity is won only by understanding and using multiple tools like <a href="http://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029">Tor-Browser</a>.
+		<div id="alert" style="background-color:red;">
+			The length of your post is over 9000!!!!11!1 Too long!
 		</div>
 <?php
 
