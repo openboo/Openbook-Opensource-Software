@@ -1,5 +1,6 @@
 <?php include("databasesetup.php");//this gives us $conn to connect to mysql.?>
 <?php include("hashtaglib.php");?>
+<?php include("urllib.php");?>
 <?php
 	if(isset($_GET['id'])){
 		$lastid = mysqli_real_escape_string($conn,$_GET['id']);
@@ -105,7 +106,7 @@
 				<span class="content">
 	<?php
 
-		echo hashtag_links(stripslashes($post));
+		echo hashtag_links(url_links(stripslashes($post)));
 
 	?>
 				</span>
