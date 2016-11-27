@@ -105,14 +105,7 @@
 				<span class="content">
 	<?php
 
-		if(substr($post,0,3)=="We "){
-			echo hashtag_links(stripslashes($post));
-		}else{
-			echo "<span style='font-size: 18px;'>We said:</span><br/>";
-			echo "<div class='quotedtext'>";
-			echo hashtag_links(stripslashes($post));
-			echo "</div>";
-		}
+		echo hashtag_links(stripslashes($post));
 
 	?>
 				</span>
@@ -198,4 +191,3 @@
 	}
   }
 ?>
-
