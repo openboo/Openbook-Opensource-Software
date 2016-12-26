@@ -95,7 +95,7 @@
 
 			/* Display images linked to in a post. */
 			//Use REGEX to turn square brackets into image tags
-			$finalstatus = preg_replace("/\[(.*?)\]/","<br/><img style='max-width:100%' src=\"$1\" />", $status);
+			$finalstatus = preg_replace("/\[(.*?)\]/","<br/><img style='max-width:100%' src=\"$1\" /><br/>", $status);
 			$finalstatus .= "<br/><br/>";//this helps hashtags getting appended not look as weird.
 
 			/* Prevent doubles */
