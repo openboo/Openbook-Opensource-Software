@@ -198,23 +198,6 @@
 					</div>
 				</div>
 	  
-				<!-- Comment Form -->
-				<div class="container-fluid">
-					<div class="row-fluid">
-						<div id="replybox" class="formbox">
-		
-							<form id="commentform" method="post" action="?id=<?php echo $postid;?>">
-								<textarea id="comment" name="comment" class="formtext" type="text" value="We are "></textarea>
-								<br/>
-								<input id="replybutton" class="formbutton pull-right" type="submit" value="Reply"></input>
-							</form>
-	  
-							<div style="clear: both;"></div>
-  
-						</div>
-					</div>
-				</div>
-
 	<?php
 
 	//Select all relevant comments
@@ -284,6 +267,23 @@
 
 
 	?>
+				<!-- Comment Form -->
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div id="replybox" class="formbox">
+		
+							<form id="commentform" method="post" action="?id=<?php echo $postid;?>">
+								<textarea id="comment" name="comment" class="formtext" type="text" value="We are "></textarea>
+								<br/>
+								<input id="replybutton" class="formbutton pull-right" type="submit" value="Reply"></input>
+							</form>
+	  
+							<div style="clear: both;"></div>
+  
+						</div>
+					</div>
+				</div>
+
 		</div><!-- /container -->
 
 	</body>
