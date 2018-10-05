@@ -166,7 +166,7 @@ Some tips:
    may have to turn on "DEBUG" mode for PHP. It doesn't necessarily show
    all the errors by default, for security purposes.
 - Also, if you're just lost in the dark at this point, try putting
-   "%20<?php echo phpinfo(); ?>" at the top of a PHP file to see if PHP is
+   "echo phpinfo();" at the top of a PHP file to see if PHP is
    even working, and see what you can figure out from there. This
    command typically shows a huge list of PHP configurations, including
    whether DEBUG mode is on.
