@@ -78,7 +78,7 @@ Welcome to...
 
 #thep0rtals are a decentralized, loosely-knit network of websites
 powered by Openbook opensource software. Which is basically a simple
-rip-off of Twitter, using hashtags to categorize information, and doing
+rip-off of Twitter, using hashtags to categorize information, but doing
 away with individual identities so that we may all speak as One.
 
 It was also made to be easily used in the TOR browser, even if NoScript
@@ -155,8 +155,8 @@ In which case, some of these steps may be redundant.
    "SQLuser" may be a name you picked when you set up SQL, or it may
    have already been picked out for you by your hosting service, based
    on your username or something.
-10.Upload all the files! Be sure you keep all the files in the same
-   folders they came in, or everything will break.
+10. Upload all the files! Be sure you keep all the files in the same
+    folders they came in, or everything will break.
 
 Hopefully, if your database settings are all correct, it will "just
 work"! ;)
